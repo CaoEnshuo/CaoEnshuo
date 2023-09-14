@@ -1,0 +1,5 @@
+#一共就两步
+#第一步打开Anaconda Prompt (anaconda)输入jupyter notebook --generate-config，然后输入yes
+#第二步，根据目录点开.jupyter\jupyter_notebook_config.py，利用ctrl+f查找#c.NotebookApp.notebook_dir = ''，然后在引号中间加入你想更改到的路径，并删除语句最前面的#号
+#例如：c.NotebookApp.notebook_dir = 'E:\\jupyter'
+#然后重启jupyter就好啦
